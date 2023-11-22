@@ -4,7 +4,7 @@ from sentry_sdk.integrations.flask import FlaskIntegration
 import logging
 
 sentry_sdk.init(
-    dsn="https://6afe4819067248f4444074b160c01e20@o4506270132404224.ingest.sentry.io/4506270139088896",
+    dsn="https://3038ebb0fb5497b533a64c31b9437cac@o4506270132404224.ingest.sentry.io/4506270505107456",
     integrations=[FlaskIntegration()],
     # Set traces_sample_rate to 1.0 to capture 100%
     # of transactions for performance monitoring.
